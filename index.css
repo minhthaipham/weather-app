@@ -1,0 +1,161 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.container{
+    margin : 50px auto;
+    width : 500px;
+    background-color : rgb(30, 165, 158);
+    padding : 20px;
+    min-height : 200px;
+    border-radius: 5px;
+}
+
+.search-bar{
+    width: 50%;
+    border-bottom : 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    left: 0;
+    color: #fff;
+    top: 3px;
+}
+
+i.fa-solid.fa-microphone {
+    color: white;
+    position: absolute;
+    /* left: 0; */
+    top: 5px;
+    right: 0;
+    cursor: pointer;
+}
+
+.mro { 
+    height:10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+.search-input{
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.search-input::placeholder{
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+    padding : 80px 50px;
+}
+
+.content__title{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content__des{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content__temp{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content__temp::after{
+    content: "°C"; 
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+
+.sub{
+    border-top: 1px solid #fff;
+}
+
+.row{ 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.mtmoc{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.gio{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.doam{ 
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.phantram {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mtlan{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+ 
+.gio1{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bao {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.km{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
